@@ -98,6 +98,32 @@
 
 ---
 
+## Private work (case studies)
+
+Most of my day-to-day product code lives in **private / NDA** repos. Public GitHub shows how I build; these case studies show impact. Happy to walk through anonymized patterns on a call. Professional reference available on request (**Ashley Sohier**, CEO, Krunchbox).
+
+### Krunchbox / Pluvia — data-heavy analytics UI
+
+| | |
+|---|---|
+| **Problem** | Retail analytics grids with **100k+ rows** felt frozen on filter/sort (full DOM + over-fetch). |
+| **Approach** | ag-Grid **Server-Side Row Model**, debounced filters, strict TypeScript API contracts, shared Next.js app shell for AI/streaming state. |
+| **Result** | Typical filter UX in the **sub-300ms** range; led 3 engineers with PR/test standards. |
+| **Stack** | React · Next.js · TypeScript · ag-Grid Enterprise |
+
+### J.P. Morgan — financial dashboards
+
+| | |
+|---|---|
+| **Problem** | Internal brokerage/ops users needed reliable production dashboards under regulated delivery. |
+| **Approach** | React/Next.js/TypeScript UIs with performance and reliability focus in an enterprise SDLC. |
+| **Result** | Shipped and maintained production financial dashboards used by internal users. |
+| **Stack** | React · Next.js · TypeScript |
+
+> Proof of open engineering: **[Adolfo](https://github.com/erickorso/adolfo)** (web) · **[Adolfo Mobile](https://github.com/erickorso/adolfo-mobile)** (Expo) · live [adolfo-nine.vercel.app](https://adolfo-nine.vercel.app)
+
+---
+
 ## Featured projects
 
 | Project | Stack | Link |
