@@ -32,7 +32,7 @@
 - 🏗️ **Architect** — Krunchbox 2.0 & Pluvia (retail BI, 100k+ row grids, ag-Grid SSRM)
 - 🏦 **Enterprise** — J.P. Morgan financial dashboards, Spark Digital (Dow Jones, AMC+)
 - 🔌 **Fullstack when it counts** — serverless APIs, PostgreSQL schema design, auth, transactional integrity
-- 📱 **Mobile** — Expo / React Native + FastAPI BFF (Adolfo Mobile)
+- 📱 **Mobile** — Expo / React Native: Adolfo Mobile, and a native trading client sharing the web app’s domain layer
 - 🎨 **3D Web** — Three.js, React Three Fiber, PBR materials, virtual tours
 - ✅ **Quality** — TypeScript strict, Vitest, Playwright, a11y (WCAG-oriented), CI/CD
 - 🌍 **Open to** — Remote Senior/Lead Frontend · Freelance · EU / Global
@@ -104,7 +104,7 @@
 
 Everything below this line can be verified by cloning it. That is the point.
 
-### Erick Market — trading simulator, fullstack, solo
+### Erick Market — trading simulator: web + React Native, one domain layer
 
 [repo](https://github.com/erickorso/erick-market-2025) · [live](https://erick-market-2025.vercel.app)
 
@@ -112,8 +112,9 @@ Everything below this line can be verified by cloning it. That is the point.
 |---|---|
 | **Problem** | A trade endpoint is where a side project stops being a toy: money can be created out of nothing, and a dropped connection can charge twice. |
 | **Approach** | Execution price quoted **server-side**, never taken from the request. Settlement in **single atomic CTEs**. **Exactly-once** via a required `Idempotency-Key`, enforced by a unique index and recoverable from the ledger if a request dies mid-flight. |
-| **Result** | **912 tests at 98% coverage behind a CI gate**, Playwright e2e + **axe WCAG 2.1 AA** on every push, post-deploy smoke against the live URL. |
-| **Stack** | React 19 · TypeScript · Vercel serverless · **Neon PostgreSQL** · Auth0 (rotating refresh tokens) |
+| **Two clients** | The React Native app lives in the same repo and **imports the web app’s domain layer directly** — services, types, translations. The rules that make a trade safe are one implementation, not two that drift. Running the web linter over the native code caught a ref written during render on the first day. |
+| **Result** | **917 tests at 98% coverage behind a CI gate**, Playwright e2e + **axe WCAG 2.1 AA** on every push, post-deploy smoke against the live URL, and an installable Android build from EAS. |
+| **Stack** | React 19 · **React Native / Expo** · TypeScript · Vercel serverless · **Neon PostgreSQL** · Auth0 (rotating refresh tokens) |
 
 > The [README](https://github.com/erickorso/erick-market-2025#readme) walks through five real bugs found in it — a Postgres snapshot-isolation trap, a React render-timing one, and a client that could set its own price — each linked to the test that pins it.
 
@@ -149,7 +150,7 @@ Most of my day-to-day product code lives in **private / NDA** repos. Public GitH
 
 | Project | Stack | Link |
 |---|---|---|
-| **Erick Market** — trading simulator: live quotes, portfolio, monthly league | React 19 · Vercel serverless · **Neon PostgreSQL** · Auth0 | [repo](https://github.com/erickorso/erick-market-2025) · [live](https://erick-market-2025.vercel.app) |
+| **Erick Market** — trading simulator: live quotes, portfolio, monthly league · **web + Android** | React 19 · **Expo / React Native** · Vercel serverless · **Neon PostgreSQL** · Auth0 | [repo](https://github.com/erickorso/erick-market-2025) · [live](https://erick-market-2025.vercel.app) |
 | **Adolfo** — catalog, jobs, courses, learn, 3D sandbox | Next.js 16 · Prisma · R3F | [repo](https://github.com/erickorso/adolfo) · [live](https://adolfo-nine.vercel.app) |
 | **Adolfo Mobile** — jobs, courses, Career Coach | Expo · React Native · FastAPI BFF | [repo](https://github.com/erickorso/adolfo-mobile) |
 | **3D Sandbox** — materials, room, video tour | Three.js · R3F · WebGL | [demo](https://adolfo-nine.vercel.app/es/sandbox/3d) |
