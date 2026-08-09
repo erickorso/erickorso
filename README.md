@@ -11,7 +11,7 @@
 
 <br/>
 
-[![Erick Market](https://img.shields.io/badge/Live_demo-Erick_Market_(trading)-14b8a6?style=for-the-badge&logo=vercel&logoColor=white)](https://erick-market-2025.vercel.app)
+[![Erick Market](https://img.shields.io/badge/Live_demo-Erick_Market_%28trading%29-14b8a6?style=for-the-badge&logo=vercel&logoColor=white)](https://erick-market-2025.vercel.app)
 [![Portfolio](https://img.shields.io/badge/Portfolio-adolfo--nine.vercel.app-0ea5e9?style=for-the-badge&logo=vercel&logoColor=white)](https://adolfo-nine.vercel.app)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Erick_Vargas-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/erick-vargas-ramos-1ab86b102)
 [![Email](https://img.shields.io/badge/Email-erickorso@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:erickorso@gmail.com)
@@ -160,11 +160,19 @@ Most of my day-to-day product code lives in **private / NDA** repos. Public GitH
 
 <div align="center">
 
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=erickorso&show_icons=true&theme=tokyonight&hide_border=true&count_private=true)
+![Streak](https://streak-stats.demolab.com/?user=erickorso&theme=tokyonight&hide_border=true)
 
-![Top languages](https://github-readme-stats.vercel.app/api/top-langs/?username=erickorso&layout=compact&theme=tokyonight&hide_border=true)
+**Erick Market**
+![last commit](https://img.shields.io/github/last-commit/erickorso/erick-market-2025?style=flat-square&label=last%20commit&color=14b8a6)
+![top language](https://img.shields.io/github/languages/top/erickorso/erick-market-2025?style=flat-square&color=14b8a6)
+![code size](https://img.shields.io/github/languages/code-size/erickorso/erick-market-2025?style=flat-square&color=14b8a6)
 
-![Streak](https://github-readme-streak-stats.herokuapp.com/?user=erickorso&theme=tokyonight&hide_border=true)
+**Adolfo**
+![last commit](https://img.shields.io/github/last-commit/erickorso/adolfo?style=flat-square&label=last%20commit&color=0ea5e9)
+![top language](https://img.shields.io/github/languages/top/erickorso/adolfo?style=flat-square&color=0ea5e9)
+![code size](https://img.shields.io/github/languages/code-size/erickorso/adolfo?style=flat-square&color=0ea5e9)
+
+
 
 </div>
 
