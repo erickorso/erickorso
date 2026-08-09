@@ -3,14 +3,15 @@
 ```
 ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
   SENIOR FRONTEND ENGINEER  ·  FRONTEND LEAD  ·  REACT / NEXT.JS
-  14+ Years · Enterprise BI · 3D Web · Mobile · Remote from Spain (EU)
+  14+ Years · Fintech & Trading UIs · Enterprise BI · Remote from Spain (EU)
 ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
 ```
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&pause=1000&color=3B82F6&center=true&vCenter=true&width=600&lines=React+%C2%B7+Next.js+%C2%B7+TypeScript;Enterprise+dashboards+%C2%B7+ag-Grid;Expo+%C2%B7+React+Native;Three.js+%C2%B7+React+Three+Fiber;Open+to+remote+%C2%B7+EU+%2F+Global)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&pause=1000&color=3B82F6&center=true&vCenter=true&width=600&lines=React+%C2%B7+Next.js+%C2%B7+TypeScript;Trading+UIs+%C2%B7+PostgreSQL+%C2%B7+Auth0;Enterprise+dashboards+%C2%B7+ag-Grid;Expo+%C2%B7+React+Native;Three.js+%C2%B7+React+Three+Fiber;Open+to+remote+%C2%B7+EU+%2F+Global)](https://git.io/typing-svg)
 
 <br/>
 
+[![Erick Market](https://img.shields.io/badge/Live_demo-Erick_Market_(trading)-14b8a6?style=for-the-badge&logo=vercel&logoColor=white)](https://erick-market-2025.vercel.app)
 [![Portfolio](https://img.shields.io/badge/Portfolio-adolfo--nine.vercel.app-0ea5e9?style=for-the-badge&logo=vercel&logoColor=white)](https://adolfo-nine.vercel.app)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Erick_Vargas-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/erick-vargas-ramos-1ab86b102)
 [![Email](https://img.shields.io/badge/Email-erickorso@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:erickorso@gmail.com)
@@ -30,6 +31,7 @@
 
 - 🏗️ **Architect** — Krunchbox 2.0 & Pluvia (retail BI, 100k+ row grids, ag-Grid SSRM)
 - 🏦 **Enterprise** — J.P. Morgan financial dashboards, Spark Digital (Dow Jones, AMC+)
+- 🔌 **Fullstack when it counts** — serverless APIs, PostgreSQL schema design, auth, transactional integrity
 - 📱 **Mobile** — Expo / React Native + FastAPI BFF (Adolfo Mobile)
 - 🎨 **3D Web** — Three.js, React Three Fiber, PBR materials, virtual tours
 - ✅ **Quality** — TypeScript strict, Vitest, Playwright, a11y (WCAG-oriented), CI/CD
@@ -98,6 +100,25 @@
 
 ---
 
+## Open case study — read the code
+
+Everything below this line can be verified by cloning it. That is the point.
+
+### Erick Market — trading simulator, fullstack, solo
+
+[repo](https://github.com/erickorso/erick-market-2025) · [live](https://erick-market-2025.vercel.app)
+
+| | |
+|---|---|
+| **Problem** | A trade endpoint is where a side project stops being a toy: money can be created out of nothing, and a dropped connection can charge twice. |
+| **Approach** | Execution price quoted **server-side**, never taken from the request. Settlement in **single atomic CTEs**. **Exactly-once** via a required `Idempotency-Key`, enforced by a unique index and recoverable from the ledger if a request dies mid-flight. |
+| **Result** | **912 tests at 98% coverage behind a CI gate**, Playwright e2e + **axe WCAG 2.1 AA** on every push, post-deploy smoke against the live URL. |
+| **Stack** | React 19 · TypeScript · Vercel serverless · **Neon PostgreSQL** · Auth0 (rotating refresh tokens) |
+
+> The [README](https://github.com/erickorso/erick-market-2025#readme) walks through five real bugs found in it — a Postgres snapshot-isolation trap, a React render-timing one, and a client that could set its own price — each linked to the test that pins it.
+
+---
+
 ## Private work (case studies)
 
 Most of my day-to-day product code lives in **private / NDA** repos. Public GitHub shows how I build; these case studies show impact. Happy to walk through anonymized patterns on a call. Professional reference available on request (**Ashley Sohier**, CEO, Krunchbox).
@@ -120,7 +141,7 @@ Most of my day-to-day product code lives in **private / NDA** repos. Public GitH
 | **Result** | Shipped and maintained production financial dashboards used by internal users. |
 | **Stack** | React · Next.js · TypeScript |
 
-> Proof of open engineering: **[Adolfo](https://github.com/erickorso/adolfo)** (web) · **[Adolfo Mobile](https://github.com/erickorso/adolfo-mobile)** (Expo) · live [adolfo-nine.vercel.app](https://adolfo-nine.vercel.app)
+> Proof of open engineering: **[Erick Market](https://github.com/erickorso/erick-market-2025)** (fullstack) · **[Adolfo](https://github.com/erickorso/adolfo)** (web) · **[Adolfo Mobile](https://github.com/erickorso/adolfo-mobile)** (Expo) · live [adolfo-nine.vercel.app](https://adolfo-nine.vercel.app)
 
 ---
 
@@ -128,6 +149,7 @@ Most of my day-to-day product code lives in **private / NDA** repos. Public GitH
 
 | Project | Stack | Link |
 |---|---|---|
+| **Erick Market** — trading simulator: live quotes, portfolio, monthly league | React 19 · Vercel serverless · **Neon PostgreSQL** · Auth0 | [repo](https://github.com/erickorso/erick-market-2025) · [live](https://erick-market-2025.vercel.app) |
 | **Adolfo** — catalog, jobs, courses, learn, 3D sandbox | Next.js 16 · Prisma · R3F | [repo](https://github.com/erickorso/adolfo) · [live](https://adolfo-nine.vercel.app) |
 | **Adolfo Mobile** — jobs, courses, Career Coach | Expo · React Native · FastAPI BFF | [repo](https://github.com/erickorso/adolfo-mobile) |
 | **3D Sandbox** — materials, room, video tour | Three.js · R3F · WebGL | [demo](https://adolfo-nine.vercel.app/es/sandbox/3d) |
@@ -154,7 +176,9 @@ Most of my day-to-day product code lives in **private / NDA** repos. Public GitH
 |---|---|
 | 📍 Location | San Sebastián de los Reyes, Madrid · Remote EU/Global |
 | 💼 LinkedIn | [linkedin.com/in/erick-vargas-ramos-1ab86b102](https://linkedin.com/in/erick-vargas-ramos-1ab86b102) |
-| 🐙 Portfolio | [github.com/erickorso/adolfo](https://github.com/erickorso/adolfo) |
+| 🐙 GitHub | [github.com/erickorso](https://github.com/erickorso) |
+| 📈 Erick Market | [repo](https://github.com/erickorso/erick-market-2025) · [live](https://erick-market-2025.vercel.app) |
+| 🎒 Adolfo | [repo](https://github.com/erickorso/adolfo) · [live](https://adolfo-nine.vercel.app) |
 | 📱 Mobile | [github.com/erickorso/adolfo-mobile](https://github.com/erickorso/adolfo-mobile) |
 | 🌐 Live | [adolfo-nine.vercel.app](https://adolfo-nine.vercel.app) |
 | 📧 Email | erickorso@gmail.com |
