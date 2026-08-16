@@ -151,6 +151,7 @@ Most of my day-to-day product code lives in **private / NDA** repos. Public GitH
 | Project | Stack | Link |
 |---|---|---|
 | **Erick Market** — trading simulator: live quotes, portfolio, monthly league · **web + Android** | React 19 · **Expo / React Native** · Vercel serverless · **Neon PostgreSQL** · Auth0 | [repo](https://github.com/erickorso/erick-market-2025) · [live](https://erick-market-2025.vercel.app) |
+| **Yelena Booking** — clinic booking + light EHR, Calendar/Meet, custom clinical fields | Next.js 16 · Firebase · Vercel Blob · Zod · Playwright | [repo](https://github.com/erickorso/yelena-booking) · [live](https://yelena-booking.vercel.app) |
 | **Adolfo** — catalog, jobs, courses, learn, 3D sandbox | Next.js 16 · Prisma · R3F | [repo](https://github.com/erickorso/adolfo) · [live](https://adolfo-nine.vercel.app) |
 | **Adolfo Mobile** — jobs, courses, Career Coach | Expo · React Native · FastAPI BFF | [repo](https://github.com/erickorso/adolfo-mobile) |
 | **3D Sandbox** — materials, room, video tour | Three.js · R3F · WebGL | [demo](https://adolfo-nine.vercel.app/es/sandbox/3d) |
