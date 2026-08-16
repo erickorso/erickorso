@@ -188,6 +188,7 @@ Most of my day-to-day product code lives in **private / NDA** repos. Public GitH
 | 💼 LinkedIn | [linkedin.com/in/erick-vargas-ramos-1ab86b102](https://linkedin.com/in/erick-vargas-ramos-1ab86b102) |
 | 🐙 GitHub | [github.com/erickorso](https://github.com/erickorso) |
 | 📈 Erick Market | [repo](https://github.com/erickorso/erick-market-2025) · [live](https://erick-market-2025.vercel.app) |
+| 🩺 Yelena Booking | [repo](https://github.com/erickorso/yelena-booking) · [live](https://yelena-booking.vercel.app) |
 | 🎒 Adolfo | [repo](https://github.com/erickorso/adolfo) · [live](https://adolfo-nine.vercel.app) |
 | 📱 Mobile | [github.com/erickorso/adolfo-mobile](https://github.com/erickorso/adolfo-mobile) |
 | 🌐 Live | [adolfo-nine.vercel.app](https://adolfo-nine.vercel.app) |
