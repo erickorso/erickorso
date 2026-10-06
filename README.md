@@ -3,7 +3,7 @@
 ```
 ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
   SENIOR FRONTEND ENGINEER  ·  FRONTEND LEAD  ·  REACT / NEXT.JS
-  14+ Years · Fintech & Trading UIs · Enterprise BI · Remote from Spain (EU)
+  15+ Years · Fintech & Trading UIs · Enterprise BI · Remote from Spain (EU)
 ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
 ```
 
@@ -11,13 +11,16 @@
 
 <br/>
 
+[![Web](https://img.shields.io/badge/Web-erickvargas.es-f59e0b?style=for-the-badge&logo=googlechrome&logoColor=white)](https://erickvargas.es)
 [![Erick Market](https://img.shields.io/badge/Live_demo-Erick_Market_%28trading%29-14b8a6?style=for-the-badge&logo=vercel&logoColor=white)](https://erick-market-2025.vercel.app)
+[![Altair](https://img.shields.io/badge/Demo_venta-Altair_templates-e11d48?style=for-the-badge&logo=vercel&logoColor=white)](https://altair-henna.vercel.app)
 [![Portfolio](https://img.shields.io/badge/Portfolio-adolfo--nine.vercel.app-0ea5e9?style=for-the-badge&logo=vercel&logoColor=white)](https://adolfo-nine.vercel.app)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Erick_Vargas-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/erick-vargas-ramos-1ab86b102)
 [![Email](https://img.shields.io/badge/Email-erickorso@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:erickorso@gmail.com)
 
 [![GitHub](https://img.shields.io/badge/GitHub-erickorso-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/erickorso)
 [![Demo 3D](https://img.shields.io/badge/Demo_3D-/sandbox/3d-8b5cf6?style=for-the-badge&logo=three.js&logoColor=white)](https://adolfo-nine.vercel.app/es/sandbox/3d)
+[![Cave Diving](https://img.shields.io/badge/Client-Cave_Diving_RD-0d9488?style=for-the-badge&logo=vercel&logoColor=white)](https://cave-diving.vercel.app)
 
 </div>
 
@@ -71,7 +74,7 @@
 
 | Experience | Focus | Users / scale | Remote |
 |---|---|---|---|
-| **14+ years** | React · Next.js · TS · RN | **100k+** rows / views (BI) | **EU / Global** |
+| **15+ years** | React · Next.js · TS · RN | **100k+** rows / views (BI) | **EU / Global** |
 
 ---
 
@@ -142,7 +145,7 @@ Most of my day-to-day product code lives in **private / NDA** repos. Public GitH
 | **Result** | Shipped and maintained production financial dashboards used by internal users. |
 | **Stack** | React · Next.js · TypeScript |
 
-> Proof of open engineering: **[Erick Market](https://github.com/erickorso/erick-market-2025)** (fullstack) · **[Adolfo](https://github.com/erickorso/adolfo)** (web) · **[Adolfo Mobile](https://github.com/erickorso/adolfo-mobile)** (Expo) · live [adolfo-nine.vercel.app](https://adolfo-nine.vercel.app)
+> Proof of open engineering: **[Erick Market](https://github.com/erickorso/erick-market-2025)** (fullstack) · **[Adolfo](https://github.com/erickorso/adolfo)** (web) · **[Adolfo Mobile](https://github.com/erickorso/adolfo-mobile)** (Expo) · **[Yelena](https://github.com/erickorso/yelena-booking)** · live [adolfo-nine.vercel.app](https://adolfo-nine.vercel.app) · studio [erickvargas.es](https://erickvargas.es)
 
 ---
 
@@ -150,8 +153,12 @@ Most of my day-to-day product code lives in **private / NDA** repos. Public GitH
 
 | Project | Stack | Link |
 |---|---|---|
+| **erickvargas.es** — mi web / studio (portfolio, pitch, obras) | Next.js 15 · Tailwind · canvas | **[erickvargas.es](https://erickvargas.es)** |
+| **VentaWeb CRM** — leads Maps, clientes, vault, facturas | Next.js 15 · Prisma · Neon | [live](https://ventaweb.vercel.app) |
 | **Erick Market** — trading simulator: live quotes, portfolio, monthly league · **web + Android** | React 19 · **Expo / React Native** · Vercel serverless · **Neon PostgreSQL** · Auth0 | [repo](https://github.com/erickorso/erick-market-2025) · [live](https://erick-market-2025.vercel.app) |
 | **Yelena Booking** — clinic booking + light EHR · **outbox/cron**, idempotent booking, Calendar/Meet | Next.js 16 · Firebase · Vercel Blob · Zod · Playwright | [repo](https://github.com/erickorso/yelena-booking) · [live](https://yelena-booking.vercel.app) |
+| **Altair** — showcase 5 plantillas web para comercios locales (Madrid / Sanse) | Next.js · demos de venta | [live](https://altair-henna.vercel.app) |
+| **Cave Diving RD** — landing cliente (Italo Floridia) · leads CRM | Next.js · Prisma · Neon | [live](https://cave-diving.vercel.app) |
 | **Adolfo** — catalog, jobs, courses, learn, 3D sandbox | Next.js 16 · Prisma · R3F | [repo](https://github.com/erickorso/adolfo) · [live](https://adolfo-nine.vercel.app) |
 | **Adolfo Mobile** — jobs, courses, Career Coach | Expo · React Native · FastAPI BFF | [repo](https://github.com/erickorso/adolfo-mobile) |
 | **3D Sandbox** — materials, room, video tour | Three.js · R3F · WebGL | [demo](https://adolfo-nine.vercel.app/es/sandbox/3d) |
@@ -185,13 +192,15 @@ Most of my day-to-day product code lives in **private / NDA** repos. Public GitH
 | | |
 |---|---|
 | 📍 Location | San Sebastián de los Reyes, Madrid · Remote EU/Global |
+| 🌐 **Mi web** | **[erickvargas.es](https://erickvargas.es)** |
 | 💼 LinkedIn | [linkedin.com/in/erick-vargas-ramos-1ab86b102](https://linkedin.com/in/erick-vargas-ramos-1ab86b102) |
 | 🐙 GitHub | [github.com/erickorso](https://github.com/erickorso) |
 | 📈 Erick Market | [repo](https://github.com/erickorso/erick-market-2025) · [live](https://erick-market-2025.vercel.app) |
 | 🩺 Yelena Booking | [repo](https://github.com/erickorso/yelena-booking) · [live](https://yelena-booking.vercel.app) |
+| 🧩 Altair demos | [altair-henna.vercel.app](https://altair-henna.vercel.app) |
+| 🤿 Cave Diving | [cave-diving.vercel.app](https://cave-diving.vercel.app) |
 | 🎒 Adolfo | [repo](https://github.com/erickorso/adolfo) · [live](https://adolfo-nine.vercel.app) |
 | 📱 Mobile | [github.com/erickorso/adolfo-mobile](https://github.com/erickorso/adolfo-mobile) |
-| 🌐 Live | [adolfo-nine.vercel.app](https://adolfo-nine.vercel.app) |
 | 📧 Email | erickorso@gmail.com |
 
 ---
