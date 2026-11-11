@@ -116,6 +116,7 @@ Everything below this line can be verified by cloning it. That is the point.
 | **Problem** | A trade endpoint is where a side project stops being a toy: money can be created out of nothing, and a dropped connection can charge twice. |
 | **Approach** | Execution price quoted **server-side**, never taken from the request. Settlement in **single atomic CTEs**. **Exactly-once** via a required `Idempotency-Key`, enforced by a unique index and recoverable from the ledger if a request dies mid-flight. |
 | **Two clients** | The React Native app lives in the same repo and **imports the web app’s domain layer directly** — services, types, translations. The rules that make a trade safe are one implementation, not two that drift. Running the web linter over the native code caught a ref written during render on the first day. |
+| **Watchlist** | Personal list in the browser, no account. Star on the card and in the detail; `/watchlist` quotes those symbols live. The home title stays up while the catalog loads, and a chart mounts only when its card nears the scroll column. |
 | **Result** | **917 tests at 98% coverage behind a CI gate**, Playwright e2e + **axe WCAG 2.1 AA** on every push, post-deploy smoke against the live URL, and an installable Android build from EAS. |
 | **Stack** | React 19 · **React Native / Expo** · TypeScript · Vercel serverless · **Neon PostgreSQL** · Auth0 (rotating refresh tokens) |
 
@@ -155,7 +156,7 @@ Most of my day-to-day product code lives in **private / NDA** repos. Public GitH
 |---|---|---|
 | **erickvargas.es** — mi web / studio (portfolio, pitch, obras) | Next.js 15 · Tailwind · canvas | **[erickvargas.es](https://erickvargas.es)** |
 | **VentaWeb CRM** — leads Maps, clientes, vault, facturas | Next.js 15 · Prisma · Neon | [live](https://ventaweb.vercel.app) |
-| **Erick Market** — trading simulator: live quotes, portfolio, monthly league · **web + Android** | React 19 · **Expo / React Native** · Vercel serverless · **Neon PostgreSQL** · Auth0 | [repo](https://github.com/erickorso/erick-market-2025) · [live](https://erick-market-2025.vercel.app) |
+| **Erick Market** — trading simulator: live quotes, local watchlist, portfolio, monthly league · **web + Android** | React 19 · **Expo / React Native** · Vercel serverless · **Neon PostgreSQL** · Auth0 | [repo](https://github.com/erickorso/erick-market-2025) · [live](https://erick-market-2025.vercel.app) |
 | **Yelena Booking** — clinic booking + light EHR · **outbox/cron**, idempotent booking, Calendar/Meet | Next.js 16 · Firebase · Vercel Blob · Zod · Playwright | [repo](https://github.com/erickorso/yelena-booking) · [live](https://yelena-booking.vercel.app) |
 | **Altair** — showcase 5 plantillas web para comercios locales (Madrid / Sanse) | Next.js · demos de venta | [live](https://altair-henna.vercel.app) |
 | **Cave Diving RD** — landing cliente (Italo Floridia) · leads CRM | Next.js · Prisma · Neon | [live](https://cave-diving.vercel.app) |
